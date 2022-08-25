@@ -6,18 +6,6 @@ namespace OrientacaoObjeto
         public static void Main(string[] args)
         {
             CadastrarClientes();
-            /* List<Cliente> clientes = Cliente.LerClientes();
-            Cliente cliente = new Cliente();
-            cliente.CPF = "1209878787";
-            cliente.Nome = "Esmael Santos";
-            cliente.Telefone = "3198354843";
-            cliente.Gravar();
-
-            Cliente cliente2 = new Cliente();
-            cliente2.CPF = "8888787777";
-            cliente2.Nome = "Anna Beatriz Santos";
-            cliente2.Telefone = "31313132";
-            cliente2.Gravar(); */
         }
 
         public static void CadastrarClientes()
@@ -50,7 +38,7 @@ namespace OrientacaoObjeto
                         Console.Write("Telefone: ");
                         string Telefone = Convert.ToString(Console.ReadLine());
 
-                        (new Usuario(){
+                        (new Cliente(){
                             Nome = Nome,
                             Telefone = Telefone,
                             CPF = CPF
