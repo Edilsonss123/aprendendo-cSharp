@@ -1,0 +1,6 @@
+References/
+.devcontainer/
+.vscode/
+docker-compose.yml
+**/bin/**
+**/obj/**
